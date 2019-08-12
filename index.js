@@ -19,7 +19,7 @@ function currentLine(line){
   var num = [];
 
 
-/* For Loop  
+/* For Loop
 
   for (let n = 0; n < line.length; n++) {
     num.push(`${n + 1}. ${line[n]}`);
