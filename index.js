@@ -16,7 +16,7 @@ function currentLine(line){
     return (`The line is currently empty.`);
   }
 
-  var num = [];
+  var numAndName = [];
 
 
 /* For Loop
@@ -34,8 +34,8 @@ var n = 0;
 
 /// While Loop
 while(n < line.length){
-    num.push(`${n + 1}. ${line[n]}`);
+    numAndName.push(`${n + 1}. ${line[n]}`);
     n++;
   }
-return (`The line is currently: ${num.join(`, `)}`)
+return (`The line is currently: ${numAndName.join(`, `)}`)
 }
