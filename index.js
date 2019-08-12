@@ -18,9 +18,21 @@ function currentLine(line){
 
   var num = [];
 
+
+/*
   for (let n = 0; n < line.length; n++) {
     num.push(`${n + 1}. ${line[n]}`);
   }
 
   return (`The line is currently: ${num.join(`, `)}`)
+}
+
+*/
+n = 0;
+
+while(n < line.length){
+    num.push(`${n + 1}. ${line[n]}`);
+    n++;
+  }
+
 }
