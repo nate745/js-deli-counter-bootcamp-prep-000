@@ -33,9 +33,9 @@ function currentLine(line){
 */
 
 /// While Loop
-var n = 0; /// Variable that sets initial number of people
+var n = 0; /// Variable that shows first array index
 
-while(n < line.length){ /// Conditional statement that shows how long loop will run
+while(n < line.length){ /// Loop will run as long as n is less than the line
     numAndName.push(`${n + 1}. ${line[n]}`); /// Pushing name and number into the array
     n++; /// Increments position by 1
   }
