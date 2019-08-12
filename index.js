@@ -28,7 +28,7 @@ function currentLine(line){
 }
 
 */
-n = 0;
+var n = 0;
 
 while(n < line.length){
     num.push(`${n + 1}. ${line[n]}`);
