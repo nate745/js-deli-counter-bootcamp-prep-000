@@ -30,9 +30,9 @@ function currentLine(line){
 
 */
 
+/// While Loop
 var n = 0;
 
-/// While Loop
 while(n < line.length){
     numAndName.push(`${n + 1}. ${line[n]}`);
     n++;
