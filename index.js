@@ -1,6 +1,6 @@
 
 
-function takeANumber(line,name){   
+function takeANumber(line,name){
   line.push(name);  /// Pushes names into array
 
   return (`Welcome, ${name}. You are number ${line.length} in line.`) ///Returns name and number in a string
