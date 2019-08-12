@@ -34,5 +34,5 @@ while(n < line.length){
     num.push(`${n + 1}. ${line[n]}`);
     n++;
   }
-
+return (`The line is currently: ${num.join(`, `)}`)
 }
